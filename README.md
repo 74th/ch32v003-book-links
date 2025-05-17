@@ -6,6 +6,14 @@
 
 # 書籍情報
 
+<img src="./img/ebook.png" width="30%"/>
+
+以下のページで書籍は販売します。
+
+> Booth Shop<br/>https://74th.booth.pm/items/6934072<br/>※技術書典18会期後に、紙書籍も販売
+
+> 技術書典<br/>https://techbookfest.org/product/qH8sBZPnJAREuL45aDSfpa<br/>※イベント会期後はPDFのみ販売
+
 # コンテンツ
 
 - [1. CH32V003の魅力と基礎知識](./1-whats.md)
