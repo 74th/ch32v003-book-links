@@ -68,7 +68,7 @@ uint32_t WS2812BLEDCallback(int ledno)
 }
 ```
 
-> ch32fun/examples/ws2812bdemo/color_utilities.h<br/>https://github.com/cnlohr/ch32fun/blob/master/examples/ws2812bdemo/⏎<br/>color_utilities.h
+> ch32fun/examples/ws2812bdemo/color_utilities.h<br/>https://github.com/cnlohr/ch32fun/blob/master/examples/ws2812bdemo/color_utilities.h
 
 ```c
 static uint32_t EHSVtoHEX( uint8_t hue, uint8_t sat, uint8_t val );

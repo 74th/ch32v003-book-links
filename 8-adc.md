@@ -358,8 +358,7 @@ ADC1->RSQR2 = 0;
 // シーケンス1番目にCH1、2番目にCH0を設定
 ADC1->RSQR3 = (ADC_Channel_1 << (5 * 0)) | (ADC_Channel_0 << (5 * 1));
 // CH1とCH0のサンプリング時間を241サイクルに設定
-ADC1->SAMPTR2 = (ADC_SampleTime_241Cycles5 << (3 * 1)) |⏎
-    (ADC_SampleTime_241Cycles5 << (3 * 0));
+ADC1->SAMPTR2 = (ADC_SampleTime_241Cycles5 << (3 * 1)) | (ADC_SampleTime_241Cycles5 << (3 * 0));
 ```
 
 ### DMAの設定

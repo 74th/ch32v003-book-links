@@ -9,7 +9,7 @@
 ### IWDGの設定と有効化
 
 ```c
-// Independent Watch Dog Timerを2sのカウンタでセット
+// Independent Watchdog Timerを2sのカウンタでセット
 IWDG_WriteAccessCmd(IWDG_WriteAccess_Enable);
 // LSIは128kHzにつき、128分周でミリ秒になる
 IWDG_SetPrescaler(IWDG_Prescaler_128);
@@ -34,7 +34,7 @@ IWDG_ReloadCounter();
 ### IWDGの設定と有効化
 
 ```c
-// Independent Watch Dog Timerを2sのカウンタでセット
+// Independent Watchdog Timerを2sのカウンタでセット
 IWDG->CTLR = IWDG_WriteAccess_Enable;
 // LSIは128kHzにつき、128分周でミリ秒になる
 IWDG->PSCR = IWDG_Prescaler_128;

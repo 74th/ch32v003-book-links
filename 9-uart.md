@@ -23,8 +23,7 @@ size_t Serial.write(uint8_t buf[], size_t len)
 ```
 
 ```c
-uint8_t CMD_READ_CO2_CONNECTION[9] =⏎
-  { 0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79 };
+uint8_t CMD_READ_CO2_CONNECTION[9] = { 0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79 };
 
 Serial.write(CMD_READ_CO2_CONNECTION, sizeof(CMD_READ_CO2_CONNECTION));
 ```
@@ -57,8 +56,7 @@ uint16_t co2 = read_buf[2] * 256 + read_buf[3];
 ### クロック供給の有効化
 
 ```c
-RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD |⏎
-    RCC_APB2Periph_USART1, ENABLE);
+RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD | RCC_APB2Periph_USART1, ENABLE);
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 ```
 
@@ -132,8 +130,7 @@ void write_uart(uint8_t *buf, uint16_t len)
 ```
 
 ```c
-uint8_t CMD_READ_CO2_CONNECTION[9] =⏎
-    {0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79};
+uint8_t CMD_READ_CO2_CONNECTION[9] = {0xFF, 0x01, 0x86, 0x00, 0x00, 0x00, 0x00, 0x00, 0x79};
 write_uart(CMD_READ_CO2_CONNECTION, sizeof(CMD_READ_CO2_CONNECTION));
 ```
 
@@ -184,8 +181,7 @@ uint16_t co2 = read_buf[2] * 256 + read_buf[3];
 ### クロック供給の有効化
 
 ```c
-RCC->APB2PCENR |= RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD |⏎
-    RCC_APB2Periph_USART1;
+RCC->APB2PCENR |= RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD | RCC_APB2Periph_USART1;
 RCC->APB2PCENR |= RCC_APB2Periph_AFIO;
 ```
 

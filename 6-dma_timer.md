@@ -102,8 +102,7 @@ NVIC->IPRIOR[TIM1_UP_IRQn] = 0 << 7 | 1 << 6;
 
 ```c
 // 割込の有効化
-NVIC->IENR[((uint32_t)(TIM1_UP_IRQn) >> 5)] |= ⏎
-    (1 << ((uint32_t)(TIM1_UP_IRQn) & 0x1F));
+NVIC->IENR[((uint32_t)(TIM1_UP_IRQn) >> 5)] |= (1 << ((uint32_t)(TIM1_UP_IRQn) & 0x1F));
 TIM1->DMAINTENR |= TIM_IT_Update;
 ```
 
@@ -196,8 +195,7 @@ DMA_InitStructure.DMA_MemoryBaseAddr = (uint32_t)gpioa_bshr_buf;
 DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;
 
 // 転送するデータ数（配列の要素数）
-DMA_InitStructure.DMA_BufferSize = ⏎
-    sizeof(gpioa_bshr_buf) / sizeof(gpioa_bshr_buf[0]);
+DMA_InitStructure.DMA_BufferSize = sizeof(gpioa_bshr_buf) / sizeof(gpioa_bshr_buf[0]);
 
 // DMAのモード
 // DMA_Mode_Normal: 1回の転送シーケンスで終了

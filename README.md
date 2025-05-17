@@ -28,7 +28,7 @@
 - [10. I2Cマスター](./10-i2c_master.md)
 - [11. I2C スレーブ](./11-i2c_slave.md)
 - [12. SPI](./12-spi.md)
-- [13. Watch Dog Timer](./13-watchdogtimer.md)
+- [13. Watchdog Timer](./13-watchdogtimer.md)
 - [14. 省エネルギーモード](./14-sleep_standby.md)
 - [15. NeoPixelとOLED SSD1306の制御](./15-modules.md)
 - [16. その他の機能](./16-others.md)

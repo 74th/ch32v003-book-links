@@ -32,8 +32,7 @@ void loop() {
 
 ```c
 // GPIO、Timerのクロック有効化
-RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOC |⏎
-    RCC_APB2Periph_GPIOD | RCC_APB2Periph_TIM1, ENABLE);
+RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA | RCC_APB2Periph_GPIOC | RCC_APB2Periph_GPIOD | RCC_APB2Periph_TIM1, ENABLE);
 // AFIOクロック有効化
 RCC_APB2PeriphClockCmd(RCC_APB2Periph_AFIO, ENABLE);
 ```

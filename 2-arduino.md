@@ -3,8 +3,7 @@
 ## 2.1. Arduinoでの開発の準備
 
 ```
-https://raw.githubusercontent.com/robinjanssens/WCH32V_board_manager_files/main/⏎
-  package_ch32v_index.json
+https://raw.githubusercontent.com/robinjanssens/WCH32V_board_manager_files/main/package_ch32v_index.json
 ```
 
 ## 2.2. まずLチカを成功させる

@@ -83,8 +83,7 @@ int main()
   funPinMode(PC2, GPIO_CFGLR_OUT_10Mhz_AF_OD);
 
   // I2Cスレーブの初期化
-  SetupI2CSlave(0x10, i2c_registers, sizeof(i2c_registers),⏎
-      on_write, on_read, false);
+  SetupI2CSlave(0x10, i2c_registers, sizeof(i2c_registers), on_write, on_read, false);
 
   while (1)
   ;
