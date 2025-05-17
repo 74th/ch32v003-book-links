@@ -1,6 +1,6 @@
 # 18. 本書のMCP Serverを使おう
 
-### CH32V003ガイドブックMCP Serverとは
+### CH32V003開発ガイドブックMCP Serverとは
 
 ```
 名前: read_ch32v003_guide_book

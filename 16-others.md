@@ -10,3 +10,5 @@ minichlink -d
 ```
 
 ## ユーザ情報を格納するOption Byte
+
+> https://github.com/cnlohr/ch32fun/blob/master/examples/optionbytes/optionbytes.c

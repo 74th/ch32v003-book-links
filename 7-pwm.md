@@ -98,16 +98,16 @@ TIM_Cmd(TIM1, ENABLE);
 ```c
 while (1)
 {
-    for (int i = 1; i <= 32; i++)
-    {
-        TIM_SetCompare1(TIM1, 8 * i - 1);
-        Delay_Us(1000000 / 32);
-    }
-    for (int i = 1; i <= 32; i++)
-    {
-        TIM_SetCompare1(TIM1, 8 * (33 - i) - 1);
-        Delay_Us(1000000 / 32);
-    }
+  for (int i = 1; i <= 32; i++)
+  {
+    TIM_SetCompare1(TIM1, 8 * i - 1);
+    Delay_Us(1000000 / 32);
+  }
+  for (int i = 1; i <= 32; i++)
+  {
+    TIM_SetCompare1(TIM1, 8 * (33 - i) - 1);
+    Delay_Us(1000000 / 32);
+  }
 }
 ```
 
