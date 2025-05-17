@@ -10,5 +10,4 @@
 - [同人誌『マイコンさんに知らないプロトコルを喋らせる技術』技術書典 14](https://74th.booth.pm/items/4799571)
 - [同人誌『土曜日の Raspberry Pi Pico』技術書典 13](https://74th.booth.pm/items/4161550)
 - [同人誌『VS Code デバッグ技術 2nd Edition』技術書典 11](https://74th.booth.pm/items/3338895)
-- 他技術同人誌9冊執筆
 - [BOOTH https://74th.booth.pm/に電子工作キットも出しています](https://74th.booth.pm/)
